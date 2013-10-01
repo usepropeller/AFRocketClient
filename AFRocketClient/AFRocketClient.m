@@ -62,8 +62,6 @@
         }
     }];
 
-    [eventSource open:error];
-
     return eventSource;
 }
 
