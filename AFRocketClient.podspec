@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Rocket client built on top of AFNetworking'
   s.homepage = 'https://github.com/AFNetworking/AFRocketClient'
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
-  s.source   = { :git => 'https://github.com/AFNetworking/AFRocketClient.git', :tag => '0.0.1' }
+  s.source   = { :git => 'https://github.com/usepropeller/AFRocketClient.git', :tag => '0.0.1.propeller' }
   s.source_files = 'AFRocketClient'
   s.requires_arc = true
   s.dependency 'AFNetworking', '~> 2.0.0'
