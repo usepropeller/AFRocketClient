@@ -8,7 +8,9 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/usepropeller/AFRocketClient.git', :tag => '0.0.1.propeller' }
   s.source_files = 'AFRocketClient'
   s.requires_arc = true
-  s.dependency 'AFNetworking', '~> 2.0.0'
+  s.dependency 'AFNetworking/Serialization', "~> 2.0"
+  s.dependency 'AFNetworking/Security', "~> 2.0"
+  s.dependency 'AFNetworking/NSURLConnection', "~> 2.0"
 
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
